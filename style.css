@@ -284,6 +284,9 @@ span.wave {
       margin-top: auto;
       padding-right: 400px;
     }
+    .navbar-nar{
+      align-items: flex-start;
+    }
   }
   @media only screen and (max-width : 950px){
 

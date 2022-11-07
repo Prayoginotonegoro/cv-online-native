@@ -21,7 +21,6 @@ a{
   url("Image/LovelyHome-9aBZ.ttf") format('truetype');
 
 }
-
 .brand-name ,.navbar-light .navbar-brand{
      font-family: "Brush Script MT"; 
     /* margin-bottom: 3px; */
@@ -48,7 +47,7 @@ a{
 }
 
   #contact{
-      padding: 20px 20px 10px;
+      padding: 80px 20px 10px;
   }
  
 
@@ -192,7 +191,9 @@ a{
     .connection{
       margin-left: 0px;
     }
-
+    .navbar-nav{
+      align-items: flex-start;
+    }
   }
 
   footer{

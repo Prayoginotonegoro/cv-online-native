@@ -7,6 +7,10 @@ body{
   padding : 3% 5% 1%;
 }
 
+h1{
+  font-family: 'Georgia';
+}
+
 p{
 font-size: 18px;
 }
@@ -128,6 +132,15 @@ a{
     box-sizing:border-box;
   }
   
+  @media only screen and (max-width : 950px){
+    h1{
+      font-size: 30px;
+
+    }
+    #Section1{
+      padding-top: 60px;
+    }
+  }
   .timeline-month:before{
     position:absolute;
     content:'';
@@ -233,7 +246,9 @@ a{
   }
   
   .box-shadow { box-shadow:5px 5px 5px #d9dbdf; }
-
+  .slider{
+    width: 70%;
+  }
   .button{
    height: 25px;
    width: 80px;

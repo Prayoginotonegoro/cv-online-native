@@ -249,7 +249,9 @@ p{
     font-weight: bold;
   }
 
-
+ .slider{
+  width: 70%;
+ }
   footer{
     padding-top: 2%;
     color: #868e96;
