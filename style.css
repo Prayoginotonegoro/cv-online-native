@@ -311,7 +311,9 @@ span.wave {
       .first-image{
           display: none;
       }
-
+      .navbar-nav{
+        align-items: flex-start;
+      }
       .pandas{
         width: 23%;
         height: 15%;
