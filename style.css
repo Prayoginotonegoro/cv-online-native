@@ -155,9 +155,6 @@ span.wave {
     top: 90%;
   }
 
-
-
-
   .btn:hover::before {
     animation: aaa 0.7s 1;
     top: -10%;
@@ -270,14 +267,17 @@ span.wave {
     .feature-web{
       order:2;
     }
-      
-      .brand-name ,.navbar-light .navbar-brand{
+    .brand-name ,.navbar-light .navbar-brand{
       font-family: "Brush Script MT";
       /* margin-bottom: 3px; */
       font-size: larger;
       font-weight: bold;
       color: #351458;
-  }
+    }
+      .headerachor, .dropdown, .dropdown-item{
+        font-size: smaller;
+      }
+  
   }
   @media only screen and (max-width : 991px) and (min-width: 951px){
     .section-1{

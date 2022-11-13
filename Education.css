@@ -244,7 +244,18 @@ a{
   .certificate-text{
     text-align: left;
   }
-  
+  @media only screen and (max-width : 764px){
+    .brand-name ,.navbar-light .navbar-brand{
+    font-family: "Brush Script MT";
+    /* margin-bottom: 3px; */
+    font-size: larger;
+    font-weight: bold;
+    color: #351458;
+  }
+    .headerachor, .dropdown, .dropdown-item{
+      font-size: smaller;
+    }
+}
   .box-shadow { box-shadow:5px 5px 5px #d9dbdf; }
   .slider{
     width: 70%;

@@ -220,7 +220,18 @@ p{
       font-size: 15px;
   }
  
-  
+  @media only screen and (max-width : 764px){
+    .brand-name ,.navbar-light .navbar-brand{
+    font-family: "Brush Script MT";
+    /* margin-bottom: 3px; */
+    font-size: larger;
+    font-weight: bold;
+    color: #351458;
+  }
+    .headerachor, .dropdown, .dropdown-item{
+      font-size: smaller;
+    }
+}
   .box-title i{
     margin-right:5px;
   }

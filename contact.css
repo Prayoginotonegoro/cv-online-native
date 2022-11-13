@@ -174,9 +174,22 @@ a{
     100% { transform: rotate(  0.0deg) }
   }
 
- 
+  @media only screen and (max-width : 764px){
+      .brand-name ,.navbar-light .navbar-brand{
+      font-family: "Brush Script MT";
+      /* margin-bottom: 3px; */
+      font-size: larger;
+      font-weight: bold;
+      color: #351458;
+    }
+      .headerachor, .dropdown, .dropdown-item{
+        font-size: smaller;
+      }
+  }
   @media only screen and (max-width : 950px){
-
+    .navbar-brand{
+      font-size: smaller;
+    }
     body,html{
       text-align: center;
       font-size: 16px;
@@ -194,8 +207,14 @@ a{
     .navbar-nav{
       align-items: flex-start;
     }
+    
   }
-
+  @media only screen and (max-width : 746px){
+    .navbar-brand{
+      font-size: 10px;
+      color: #a10a0a;
+    }
+  }
   footer{
     padding-top: 2%;
     color: #868e96;
