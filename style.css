@@ -274,7 +274,7 @@ span.wave {
       .brand-name ,.navbar-light .navbar-brand{
       font-family: "Brush Script MT";
       /* margin-bottom: 3px; */
-      font-size: 30px;
+      font-size: larger;
       font-weight: bold;
       color: #351458;
   }
@@ -286,6 +286,9 @@ span.wave {
     }
     .navbar-nav{
       align-items: flex-start;
+    }
+    .navbar-brand{
+      font-size: small;
     }
   }
   @media only screen and (max-width : 950px){
@@ -317,6 +320,9 @@ span.wave {
       .pandas{
         width: 23%;
         height: 15%;
+      }
+      .navbar-brand{
+        font-size: small;
       }
   }
 
